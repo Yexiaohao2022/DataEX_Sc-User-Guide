@@ -1,5 +1,53 @@
 # DataEX_Sc-User-Guide
-# 用户指南
+**User Guide**  
+This guide will help you understand how to effectively use the various features of DataEX-Sc.
+
+**Basic Workflow**  
+1. **Upload Image**: Drag-and-drop or click to upload a scatter plot image.  
+2. **Automatic Detection**: Click "Start Detection" to automatically identify coordinate areas, legends, etc.  
+3. **Set Anchor Points**: Use the anchor tool to mark known values on the axes for coordinate system calibration.  
+4. **Extract Data**: The system will automatically or manually extract data points based on calibration information and legends.  
+5. **Export Data**: Export extracted data in CSV, JSON, or Excel format.
+
+**Tool Details**  
+You can use keyboard shortcuts to quickly switch between tools.
+
+- **Selection Tool (V)**: Used for panning and zooming the image. Hold Ctrl/Cmd to activate the magnifier.  
+- **Box Selection Tool (B)**: Used to select multiple data points at once.  
+- **Eraser Tool (E)**: Used to delete individual or continuous data points.  
+- **Color Picker Tool (I)**: Click anywhere on the image to get the color value (hexadecimal) of that point, which is automatically copied to the clipboard.  
+- **Anchor Tool (A)**: Used to set calibration points on the axes. Click near the bottom or left side of the image to automatically identify it as an X-axis or Y-axis anchor point.  
+- **Data Point Tool (D)**: Used to manually add data points on the chart.
+
+**Feature Panels**  
+1. **Object Detection Panel**  
+   - **Function**: Controls YOLO model detection for identifying legends, coordinate areas, solid boundaries, and legend boxes.  
+   - **Display Control**: You can toggle the display of detection results on the canvas.
+
+2. **Coordinate Calibration Panel**  
+   - **Function**: Manages axis anchor points, supporting manual addition and deletion.  
+   - **Title Selection**: Click the "📋" button to select axis titles, which will be automatically recognized via OCR.  
+   - **Display Control**: You can toggle the display of axis lines, labels, and anchor points on the canvas.
+
+3. **Legend Detection Panel**  
+   - **Smart Analysis (🔍)**: Recommended for use. The system automatically detects symbols and text labels in the legend and performs intelligent matching.  
+   - **Manual Process**: You can also first "Detect Legend Box" and then "Analyze Selected Area" for manual extraction.
+
+4. **Data Extraction Panel**  
+   - **Data Extraction**: Automatically extracts data series based on legend symbols or color clustering.  
+   - **Legend Integration**: If legend symbols are detected, the system automatically uses legend labels as data series names.  
+   - **Deduplication Mechanism**: Automatically removes duplicate or overly close data points and displays deduplication statistics.  
+   - **Display Control**: You can toggle the display of extracted data points on the canvas.
+
+5. **Data Chart & Export**  
+   - **Chart Display**: Uses ECharts for real-time visualization of extracted data.  
+   - **Smart Labeling**: Charts automatically use recognized labels from legends as series names.  
+   - **Data Export**: Supports exporting data to CSV, JSON, or Excel files.
+
+6. **Test Account**  
+   - To be announced.
+  
+# 用户指南-中文
 
 本指南将帮助您了解如何有效使用DataEX-Sc的各项功能。
 
