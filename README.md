@@ -24,7 +24,7 @@ This guide will help you understand and effectively use the various features of 
 6. **Export Data**  
    Export the extracted data as a CSV file.
 
-[   <video src="E:\博士\计算材料\数据库\数据库\软件\散点图识别\李竹良师兄\英文字幕.mp4"></video>](https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Quick%20start.mp4)
+[   <video src=https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Quick%20start.mp4></video>]
 
 ## Tool Details
 
@@ -77,7 +77,7 @@ You can use keyboard shortcuts to quickly switch between tools.
 
   Manual correction (optional)
 
-[<video src="E:\博士\计算材料\数据库\数据库\软件\散点图识别\李竹良师兄\人工校正251220.mp4"></video>](https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Manual%20correction%20251220.mp4)
+[<video src=https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Manual%20correction%20251220.mp4></video>]
 
 
 
