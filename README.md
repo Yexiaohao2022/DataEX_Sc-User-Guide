@@ -24,7 +24,8 @@ This guide will help you understand and effectively use the various features of 
 6. **Export Data**  
    Export the extracted data as a CSV file.
 
-https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Quick%20start.mp4
+https://github.com/user-attachments/assets/64320b4f-c328-49f6-b466-b7d38339cf27
+
 
 ## Tool Details
 
@@ -77,7 +78,7 @@ You can use keyboard shortcuts to quickly switch between tools.
 
   Manual correction (optional)
 
-https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Manual%20correction%20251220.mp4
+https://github.com/user-attachments/assets/f0025ae3-d88b-425d-a9ba-459636688ab3
 
 
 
