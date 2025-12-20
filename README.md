@@ -1,105 +1,231 @@
 # DataEX_Sc-User-Guide
-**User Guide**  
-This guide will help you understand how to effectively use the various features of DataEX-Sc.
 
-**Basic Workflow**  
-1. **Upload Image**: Drag-and-drop or click to upload a scatter plot image.  
-2. **Automatic Detection**: Click "Start Detection" to automatically identify coordinate areas, legends, etc.  
-3. **Set Anchor Points**: Use the anchor tool to mark known values on the axes for coordinate system calibration.  
-4. **Extract Data**: The system will automatically or manually extract data points based on calibration information and legends.  
-5. **Export Data**: Export extracted data in CSV, JSON, or Excel format.
+**User Guide for DataEX-Sc**
 
-**Tool Details**  
+This guide will help you understand and effectively use the various features of DataEX-Sc.
+
+## Basic Workflow
+
+1. **Upload Image**  
+   Drag and drop or click to upload a scatter plot image. The system will automatically perform axis detection and axis tick value recognition.
+
+2. **Correct Ticks**  
+   Use the Anchor Point Tool or Smart Anchor Point Tool to manually correct OCR-identified tick marks and axis scale types (the web version does not use paid high-precision OCR services).
+
+3. **Legend Analysis**  
+   If the image contains a legend, click the **Analyze Legend** button in the Legend Detection panel to perform legend feature analysis.
+
+4. **Extract Data**  
+   Click the **Extract Data Series** button. The system will automatically classify scatter points and extract their real-world coordinates.
+
+5. **Correct Data**  
+   Use the tools described below to manually correct scatter point classification results.
+
+6. **Export Data**  
+   Export the extracted data as a CSV file.
+
+[   <video src="E:\博士\计算材料\数据库\数据库\软件\散点图识别\李竹良师兄\英文字幕.mp4"></video>](https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Quick%20start.mp4)
+
+## Tool Details
+
 You can use keyboard shortcuts to quickly switch between tools.
 
-- **Selection Tool (V)**: Used for panning and zooming the image. Hold Ctrl/Cmd to activate the magnifier.  
-- **Box Selection Tool (B)**: Used to select multiple data points at once.  
-- **Eraser Tool (E)**: Used to delete individual or continuous data points.  
-- **Color Picker Tool (I)**: Click anywhere on the image to get the color value (hexadecimal) of that point, which is automatically copied to the clipboard.  
-- **Anchor Tool (A)**: Used to set calibration points on the axes. Click near the bottom or left side of the image to automatically identify it as an X-axis or Y-axis anchor point.  
-- **Data Point Tool (D)**: Used to manually add data points on the chart.
+**Primary Shortcuts:**
 
-**Feature Panels**  
-1. **Object Detection Panel**  
-   - **Function**: Controls YOLO model detection for identifying legends, coordinate areas, solid boundaries, and legend boxes.  
-   - **Display Control**: You can toggle the display of detection results on the canvas.
+*   **Eraser Tool (E)**: Deletes individual or contiguous data points.
+*   **Data Point Tool (D)**: Manually adds data points to the chart.
+*   **Anchor Point Tool (A)**: Sets calibration points for the axes. Clicking near the bottom or left side of the image will automatically identify the point as an X-axis or Y-axis anchor.
 
-2. **Coordinate Calibration Panel**  
-   - **Function**: Manages axis anchor points, supporting manual addition and deletion.  
-   - **Title Selection**: Click the "📋" button to select axis titles, which will be automatically recognized via OCR.  
-   - **Display Control**: You can toggle the display of axis lines, labels, and anchor points on the canvas.
+**Additional Shortcuts (To be expanded):**
 
-3. **Legend Detection Panel**  
-   - **Smart Analysis (🔍)**: Recommended for use. The system automatically detects symbols and text labels in the legend and performs intelligent matching.  
-   - **Manual Process**: You can also first "Detect Legend Box" and then "Analyze Selected Area" for manual extraction.
+* **Selection Tool (V)**: Used to pan and zoom the image. Hold down the `Ctrl` (Windows/Linux) or `Cmd` (macOS) key to activate the magnifier.
 
-4. **Data Extraction Panel**  
-   - **Data Extraction**: Automatically extracts data series based on legend symbols or color clustering.  
-   - **Legend Integration**: If legend symbols are detected, the system automatically uses legend labels as data series names.  
-   - **Deduplication Mechanism**: Automatically removes duplicate or overly close data points and displays deduplication statistics.  
-   - **Display Control**: You can toggle the display of extracted data points on the canvas.
+* **Box Selection Tool (B)**: Selects multiple data points at once.
 
-5. **Data Chart & Export**  
-   - **Chart Display**: Uses ECharts for real-time visualization of extracted data.  
-   - **Smart Labeling**: Charts automatically use recognized labels from legends as series names.  
-   - **Data Export**: Supports exporting data to CSV, JSON, or Excel files.
+* **Color Picker Tool (I)**: Click anywhere on the image to get the hexadecimal color value of that point, which is automatically copied to the clipboard.
 
-6. **Test Account**  
-   - To be announced.
+  There are 5 status indicators on the interface to help users understand which conditions have been met. At a minimum, conditions 4 and 5 must be satisfied. The more conditions are met, the better the data extraction results will be:
+
+  **5.1 🖼️ Image Status**
+
+  - 🟢 Green: Image uploaded
+  - 🔴 Red: No image uploaded
+
+  **5.2 🔍 Detection Status**
+
+  - 🟢 Green: Legend detection results (shapes or boxes) exist
+  - 🔴 Red: No legend detection results
+
+  **5.3 🏷️ Legend Analysis Status**
+
+  - 🟢 Green: Labeled legend symbols exist (will be used for extraction)
+  - 🟠 Orange: No legend symbols (extraction is still possible, but labels will not be used)
+
+  **5.4 📏 X-axis Anchor Status**
+
+  - 🟢 Green: ≥2 anchors
+  - 🔴 Red: <2 anchors
+  - Display format: `X-axis Anchors: Number/2`
+
+  **5.5 📏 Y-axis Anchor Status**
+
+  - 🟢 Green: ≥2 anchors
+  - 🔴 Red: <2 anchors
+  - Display format: `Y-axis Anchors: Number/2`
+
   
+
+  Manual correction (optional)
+
+[<video src="E:\博士\计算材料\数据库\数据库\软件\散点图识别\李竹良师兄\人工校正251220.mp4"></video>](https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Manual%20correction%20251220.mp4)
+
+
+
+## Functional Panels
+
+### 1. Object Detection Panel
+
+*   **Function**: Controls YOLO model detection for identifying legends, coordinate regions, solid boundaries, and legend boxes.
+*   **Display Control**: You can toggle the display of detection results on the canvas.
+
+### 2. Coordinate Calibration Panel
+
+*   **Function**: Manages axis tick anchor points and supports manual correction of tick values.
+*   **Title Selection**: You can select the axis title area. The system will automatically recognize the title text via OCR.
+*   **Display Control**: You can toggle the display of axis lines, labels, and anchor points on the canvas.
+
+### 3. Legend Detection Panel
+
+*   **Smart Analysis (🔍) (Recommended)**: The system automatically detects symbols and text labels in the legend and performs intelligent matching.
+*   **Manual Process**: You can also first click "Detect Legend Box," then use the "Analyze Selected Area" function to manually extract legend information.
+
+### 4. Caption Detection Panel
+
+*   **Auto Detect**: Click the **Auto Detect** button for the system to automatically identify captions/titles in the image.
+*   **Manual Select**: Click the **Manual Select** button to manually select the caption/title area and invoke OCR for recognition.
+
+### 5. Data Extraction Panel
+
+*   **Data Extraction**: Automatically extracts data series based on legend symbols or color clustering.
+*   **Legend Fusion**: If legend symbols are detected, the system automatically uses the legend labels as data series names.
+*   **Deduplication**: Automatically removes duplicate or overly close data points and displays deduplication statistics.
+*   **Display Control**: You can toggle the display of extracted data points on the canvas.
+
+### 6. Data Chart & Export
+
+*   **Chart Visualization**: Uses ECharts for real-time visualization of the extracted data.
+*   **Smart Labeling**: Charts automatically use labels identified from the legend as data series names.
+*   **Data Export**: Supports exporting data as a CSV file.
+
+## Test Account
+
+To be announced.
+
 # 用户指南-中文
 
-本指南将帮助您了解如何有效使用DataEX-Sc的各项功能。
+本指南旨在帮助您了解并有效使用 DataEX-Sc 的各项功能。
 
 ## 基本流程
 
-1.  **上传图像**: 通过拖拽或点击上传散点图图像。
-2.  **自动检测**: 点击“开始检测”自动识别坐标区域、图例等。
-3.  **设置锚点**: 使用锚点工具标记坐标轴上的已知数值，以校准坐标系。
-4.  **提取数据**: 系统将根据校准信息和图例，自动或手动提取数据点。
-5.  **导出数据**: 将提取的数据导出为CSV、JSON或Excel格式。
+1.  **上传图像**  
+    支持拖拽或点击上传散点图图像。上传后，系统将自动进行坐标轴检测与坐标轴刻度线数值识别。
+
+2.  **刻度线校正**  
+    可使用锚点工具或智能锚点工具，对 OCR 识别出的刻度线位置及坐标轴尺度类型进行手动校正（网站版本未调用付费高精度 OCR 服务）。
+
+3.  **图例分析**  
+    若图像包含图例，可在图例检测面板中点击 **Analyze Legend** 按钮，进行图例特征分析。
+
+4.  **提取数据**  
+    点击 **Extract Data Series** 按钮，系统将自动进行散点分类并抽取散点的真实坐标。
+
+5.  **数据校正**  
+    可使用下文介绍的工具对散点分类结果进行手动校正。
+
+6.  **导出数据**  
+    将提取的数据导出为 CSV 格式文件。
 
 ## 工具详解
 
 您可以使用键盘快捷键快速切换工具。
 
-- **选择工具 (V)**: 用于平移和缩放图像。按住`Ctrl/Cmd`键可激活放大镜。
-- **框选工具 (B)**: 用于一次性选择多个数据点。
-- **橡皮擦工具 (E)**: 用于删除单个或连续的数据点。
-- **取色器工具 (I)**: 点击图像任意位置可获取该点的颜色值（十六进制），并自动复制到剪贴板。
-- **锚点工具 (A)**: 用于设置坐标轴的校准点。靠近图像底部或左侧点击，可自动识别为X轴或Y轴锚点。
-- **数据点工具 (D)**: 用于手动在图表上添加数据点。
+**主要快捷键：**
+
+- **橡皮擦工具 (E)**：删除单个或连续的数据点。
+- **数据点工具 (D)**：手动在图表上添加数据点。
+- **锚点工具 (A)**：设置坐标轴校准点。靠近图像底部或左侧点击，可自动识别为 X 轴或 Y 轴锚点。
+
+**其他快捷键（持续更新中）：**
+
+- **选择工具 (V)**：用于平移和缩放图像。按住 `Ctrl`（Windows/Linux）或 `Cmd`（macOS）键可激活放大镜功能。
+- **框选工具 (B)**：一次性选择多个数据点。
+- **取色器工具 (I)**：点击图像任意位置可获取该点的十六进制颜色值，并自动复制到剪贴板。
 
 ## 功能面板
 
 ### 1. 目标检测面板
 
-- **功能**: 控制YOLO模型的检测，用于识别图例、坐标区域、实线边界和图例框。
-- **显示控制**: 您可以打开或关闭检测结果在画布上的显示。
+- **功能**：控制 YOLO 模型检测，用于识别图例、坐标区域、实线边界及图例框。
+- **显示控制**：可开启或关闭检测结果在画布上的显示。
 
 ### 2. 坐标校准面板
 
-- **功能**: 管理坐标轴的锚点，支持手动添加和删除。
-- **标题框选**: 点击“📋”按钮，可以框选坐标轴的标题，系统将通过OCR自动识别。
-- **显示控制**: 您可以打开或关闭坐标轴标线、标签和锚点在画布上的显示。
+- **功能**：管理坐标轴刻度线锚点，支持手动校正刻度线数值。
+- **标题框选**：可框选坐标轴标题区域，系统将通过 OCR 自动识别标题文字。
+- **显示控制**：可开启或关闭坐标轴标线、标签及锚点在画布上的显示。
 
 ### 3. 图例检测面板
 
-- **智能分析 (🔍)**: 推荐使用此功能。系统会自动检测图例中的符号和文字标签，并进行智能匹配。
-- **手动流程**: 您也可以先“检测图例框”，然后“分析选中区域”来手动提取。
+- **智能分析 (🔍)**（推荐）：系统自动检测图例中的符号与文字标签，并进行智能匹配。
+- **手动流程**：也可先点击“检测图例框”，再使用“分析选中区域”功能手动提取图例信息。
 
-### 4. 数据提取面板
+### 4. 说明检测面板
 
-- **数据提取**: 基于图例符号或颜色聚类，自动提取数据系列。
-- **图例融合**: 如果检测到了图例符号，系统会自动将图例标签作为数据系列的名称。
-- **去重机制**: 自动移除重复或距离过近的数据点，并显示去重统计。
-- **显示控制**: 您可以打开或关闭提取的数据点在画布上的显示。
+- **自动检测**：点击 **Auto Detect** 按钮，系统将自动识别图像中的标题。
+- **手动检测**：点击 **Manual Select** 按钮，可手动选择标题区域，并调用 OCR 进行识别。
 
-### 5. 数据图表与导出
+### 5. 数据提取面板
 
-- **图表展示**: 使用ECharts实时可视化提取的数据。
-- **智能标签**: 图表会自动使用图例中识别的标签作为系列名称。
-- **数据导出**: 支持将数据导出为CSV、JSON或Excel文件。
+- **数据提取**：基于图例符号或颜色聚类，自动提取数据系列。
+- **图例融合**：若检测到图例符号，系统会自动将图例标签作为数据系列的名称。
 
-### 6. 测试账号
-待公布
+界面上有5个状态指示器，帮助用户了解哪些条件已满足，至少需要满足条件4、5，满足的条件数量越多数据提取效果越好：
+
+5.1**🖼️ 图像状态**
+
+- 🟢 绿色：已上传图像
+- 🔴 红色：未上传图像
+
+5.2**🔍 检测状态**
+
+- 🟢 绿色：有图例检测结果（shapes或boxes）
+- 🔴 红色：无图例检测结果
+
+5.3**🏷️ 图例分析状态** 
+
+- 🟢 绿色：有标记的图例符号（会用于提取）
+- 🟠 橙色：无图例符号（仍可提取，但不会使用标签）
+
+5.4**📏 X轴锚点状态**
+
+- 🟢 绿色：≥2个锚点
+- 🔴 红色：<2个锚点
+- 显示格式：`X轴锚点: 数量/2`
+
+5.5**📏 Y轴锚点状态** 
+
+- 🟢 绿色：≥2个锚点
+- 🔴 红色：<2个锚点
+- 显示格式：`Y轴锚点: 数量/2`
+
+### 6. 数据图表与导出
+
+- **图表展示**：使用 ECharts 实时可视化所提取的数据。
+- **智能标签**：图表会自动采用从图例中识别的标签作为数据系列名称。
+- **数据导出**：支持将数据导出为 CSV 文件。
+
+
+
+## 测试账号
+
+待公布。
