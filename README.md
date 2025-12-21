@@ -112,7 +112,7 @@ https://github.com/user-attachments/assets/f0025ae3-d88b-425d-a9ba-459636688ab3
 *   **Deduplication**: Automatically removes duplicate or overly close data points and displays deduplication statistics.
 *   **Display Control**: You can toggle the display of extracted data points on the canvas.
 
-### 6. Data Chart & Export
+### 6. Data Chart & Export(Due to limited system computing power, service may experience overload and interruption under high-concurrency scenarios)
 
 *   **Chart Visualization**: Uses ECharts for real-time visualization of the extracted data.
 *   **Smart Labeling**: Charts automatically use labels identified from the legend as data series names.
@@ -227,6 +227,6 @@ To be announced.
 
 
 
-## 测试账号
+## 测试账号（系统算力有限，高并发场景下可能因过载导致服务中断）
 
 待公布。
