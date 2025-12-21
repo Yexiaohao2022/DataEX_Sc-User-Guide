@@ -112,13 +112,13 @@ https://github.com/user-attachments/assets/f0025ae3-d88b-425d-a9ba-459636688ab3
 *   **Deduplication**: Automatically removes duplicate or overly close data points and displays deduplication statistics.
 *   **Display Control**: You can toggle the display of extracted data points on the canvas.
 
-### 6. Data Chart & Export(Due to limited system computing power, service may experience overload and interruption under high-concurrency scenarios)
+### 6. Data Chart & Export
 
 *   **Chart Visualization**: Uses ECharts for real-time visualization of the extracted data.
 *   **Smart Labeling**: Charts automatically use labels identified from the legend as data series names.
 *   **Data Export**: Supports exporting data as a CSV file.
 
-## Test Account
+## Test Account(Due to limited system computing power, service may experience overload and interruption under high-concurrency scenarios)
 
 To be announced.
 
