@@ -122,6 +122,10 @@ https://github.com/user-attachments/assets/f0025ae3-d88b-425d-a9ba-459636688ab3
 
 To be announced.
 
+## Please note
+*   The system has limited computing capacity and may experience service interruption due to overload during high-concurrency access. 
+*   If the website is undergoing scheduled maintenance, relevant features will be temporarily unavailable.
+
 # 用户指南-中文
 
 本指南旨在帮助您了解并有效使用 DataEX-Sc 的各项功能。
@@ -227,6 +231,10 @@ To be announced.
 
 
 
-## 测试账号（系统算力有限，高并发场景下可能因过载导致服务中断）
+## 测试账号
 
 待公布。
+
+## 注意
+- 系统算力有限，高并发场景下可能因过载导致服务中断
+- 若网站处在更新时段，功能将暂不可用
