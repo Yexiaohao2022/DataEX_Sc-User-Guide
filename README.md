@@ -18,15 +18,18 @@ This guide helps you understand and effectively use the features of DataEX-Sc. D
 
 - Single image step-by-step tutorial
 
-  ![单步处理](https://github.com/user-attachments/assets/6c3a19c4-559d-47d3-b3b1-cfc3863dec9b)
- The clear vedio is in https://github.com/Yexiaohao2022/DataEX_Sc-User-Guide/blob/main/Quick%20start.mp4
+https://github.com/user-attachments/assets/64320b4f-c328-49f6-b466-b7d38339cf27
 
 - Batch automatic processing tutorial
-
-  ![批量处理](https://github.com/user-attachments/assets/112fd4e6-adb5-489c-9eb8-f65110548a1f)
+  
 https://github.com/user-attachments/assets/fed87af9-5569-4e73-b2e6-8c93c68bf4a4
 
 - Manual correction tutorial
+
+https://github.com/user-attachments/assets/a183e8bf-0cb3-4729-aeec-707ba21d0c8b
+
+https://github.com/user-attachments/assets/e037edf4-5187-49de-8121-454cf2739e31
+  
 
 ## Basic Workflow
 
@@ -497,17 +500,7 @@ If you have other questions or need help, please contact the technical support t
 
 ## 快速开始
 
-- 单张分步处理教程
-
-  
-
-- 批量自动处理教程
-
-  
-
-- 人工校正教程
-
-
+见英文指南处视频
 
 ## 基本流程
 
