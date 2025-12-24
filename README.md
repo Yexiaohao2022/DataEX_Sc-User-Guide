@@ -112,6 +112,7 @@ You can use keyboard shortcuts to quickly switch between tools and improve work 
 
 - **Batch delete scatter points**: When using shortcut S, you can continuously click multiple data points to batch delete scatter points
 - **Batch add scatter points**: First select the target series in the Data series panel, then continuously click multiple data points on the original image to batch add scatter points
+- **Adjust the Data Visualization interface**: move the view with the left mouse button and zoom with the scroll wheel.
 
 ## Functional Panels
 
@@ -583,6 +584,7 @@ If you have other questions or need help, please contact the technical support t
 
 - **批量删除散点**：使用快捷键S时，可以连续点击多个数据点进行批量删除散点
 - **批量增加散点**：可在Data series面板中先选择目标系列，然后连续在原图上点击多个数据点进行批量增加散点
+- **调整Data Visualization界面**：鼠标左键移动视图+滚轮进行缩放
 
 ## 功能面板
 
