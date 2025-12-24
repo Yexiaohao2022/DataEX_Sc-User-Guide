@@ -474,14 +474,32 @@ To be announced
 - Ensure anchor values are logarithmic coordinate values
 - The system will automatically use logarithmic conversion formulas for coordinate conversion
 
+### Q7: How to effectively process composite plots containing multiple coordinate regions?
+
+**Current Status**:
+
+- The current model has not been specifically trained for composite plots and cannot achieve fully automated analysis at this time.
+- The following **manual process** must be performed for each independent coordinate region:
+  1. Select the horizontal and vertical axis anchor points for the current coordinate region.
+  2. Complete data extraction for that coordinate region.
+  3. Move to the next coordinate region and repeat the above operations.
+  4. Manually add, delete, or adjust data points after extraction, if needed.
+
+**Future Optimization Plan**:
+
+- Expand the training dataset to improve the model's ability to recognize composite plots with multiple coordinate regions.
+- Optimize the web interface to support parallel annotation and batch operations across multiple regions.
+- Improve the automation workflow to reduce repetitive manual steps.
+
 ---
 
 ## Technical Support
 
-If you have other questions or need help, please contact the technical support team.
+If you have other questions or need assistance, please get in touch with our technical support team.
+
+We welcome you to provide typical samples of composite plots to help us improve model training effectiveness.
 
 **Version**: DataEX-Sc V251221
-
 # DataEX-Sc 用户指南
 
 本指南旨在帮助您了解并有效使用 DataEX-Sc 的各项功能。DataEX-Sc 是一个现代化的 Web 应用，用于从散点图中自动提取数据。
@@ -948,11 +966,34 @@ If you have other questions or need help, please contact the technical support t
 - 确保锚点的数值是对数坐标的数值
 - 系统会自动使用对数转换公式进行坐标转换
 
+
+
+### Q7: 如何有效处理包含多个坐标区的组合图？
+
+**现状说明**：
+
+- 当前模型尚未针对组合图进行专项训练，暂无法实现全自动分析
+- 需对每个独立坐标区**手动执行以下流程**：
+  1. 分别选取当前坐标区的横纵坐标轴锚点
+  2. 完成该坐标区的数据提取
+  3. 进入下一个坐标区重复上述操作
+  4. 可在提取后手动增删或调整数据点
+
+**后续优化计划**：
+
+- 扩充训练数据集，增强模型对多坐标区组合图的识别能力
+- 优化网页交互界面，支持多区域并行标注与批量化操作
+- 完善自动化流程，减少重复性手动操作步骤
+
+
+
 ---
 
 ## 技术支持
 
 如有其他问题或需要帮助，请联系技术支持团队。
+
+欢迎提供典型组合图样本，帮助我们优化模型训练效果。
 
 **版本信息**：DataEX-Sc V251221
 
