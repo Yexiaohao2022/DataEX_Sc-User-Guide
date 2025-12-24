@@ -16,21 +16,20 @@ This guide helps you understand and effectively use the features of DataEX-Sc. D
 
 ## Quick Start
 
-- Single image step-by-step tutorial
-
-https://github.com/user-attachments/assets/64320b4f-c328-49f6-b466-b7d38339cf27
-
 - Batch automatic processing tutorial
   
 https://github.com/user-attachments/assets/fed87af9-5569-4e73-b2e6-8c93c68bf4a4
 
-- Manual correction tutorial
+- Single image step-by-step tutorial
 
+https://github.com/user-attachments/assets/64320b4f-c328-49f6-b466-b7d38339cf27
+
+- Manual correction tutorial
+  
 https://github.com/user-attachments/assets/a183e8bf-0cb3-4729-aeec-707ba21d0c8b
 
 https://github.com/user-attachments/assets/e037edf4-5187-49de-8121-454cf2739e31
   
-
 ## Basic Workflow
 
 ### 1. Upload Image
