@@ -397,7 +397,8 @@ The system supports multiple users and provides user management functions (avail
 
 ### Test Account
 
-To be announced
+Email：customer2025@test.com
+Password：DataEx251221!
 
 ## FAQ
 
@@ -887,7 +888,8 @@ We welcome you to provide typical samples of composite plots to help us improve 
 
 ### 测试账号
 
-待公布
+Email：customer2025@test.com
+Password：DataEx251221!
 
 
 
