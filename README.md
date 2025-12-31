@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/e037edf4-5187-49de-8121-454cf2739e31
 
 - **Upload method**: Drag and drop or click to upload scatter plot images
 - **Supported formats**: JPG, PNG and other common image formats
-- **Auto processing**: After upload, the system will automatically perform axis detection and axis tick value recognition
+
 
 ### 2. Axis Detection and Calibration
 
@@ -525,7 +525,7 @@ We welcome you to provide typical samples of composite plots to help us improve 
 
 - **上传方式**：支持拖拽或点击上传散点图图像
 - **支持格式**：JPG、PNG 等常见图像格式
-- **自动处理**：上传后，系统将自动进行坐标轴检测与坐标轴刻度线数值识别
+
 
 ### 2. 坐标轴检测与校准
 
