@@ -270,7 +270,7 @@ You can use keyboard shortcuts to quickly switch between tools and improve work 
 
 - Click data points in the chart to locate corresponding original data points on the canvas
 - View precise values of data points in the chart
-- Supports chart type switching (scatter plot, line chart, etc.)
+
 
 **Data export**:
 
@@ -758,7 +758,7 @@ We welcome you to provide typical samples of composite plots to help us improve 
 
 - 点击图表中的数据点，可在画布上定位对应的原始数据点
 - 可在图表中查看数据点的精确数值
-- 支持图表类型切换（散点图、折线图等）
+  
 
 **数据导出**：
 
