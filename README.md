@@ -118,7 +118,7 @@ You can use keyboard shortcuts to quickly switch between tools and improve work 
 
 ### 1. Object Detection Panel
 
-**Function**:
+**Function**(The trigger condition has been merged into the Coordinate Calibration panel):
 
 - Controls YOLO model detection to identify key elements in charts:
   - Legend shapes (legend_shape)
@@ -607,7 +607,7 @@ We welcome you to provide typical samples of composite plots to help us improve 
 
 ### 1. Object Detection 面板
 
-**功能**：
+**功能**（触发条件已合并至Coordinate Calibration 面板）：
 
 - 控制 YOLO 模型检测，用于识别图表中的关键元素：
   - 图例形状（legend_shape）
@@ -662,7 +662,7 @@ We welcome you to provide typical samples of composite plots to help us improve 
 
 - 可开启或关闭坐标轴标线、标签及锚点在画布上的显示
 
-### 3. 图例检测面板
+### 3. Legend Detection面板
 
 **智能分析（🔍）（推荐）**：
 
