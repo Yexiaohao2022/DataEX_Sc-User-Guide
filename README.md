@@ -196,9 +196,7 @@ You can use keyboard shortcuts to quickly switch between tools and improve work 
 - Delete incorrect symbols
 - Manually add symbols (by drawing)
 
-**Optimization function**:
 
-- Click the "Optimize" button (if available), and the system will automatically optimize symbol matching results
 
 ### 4. Caption Detection Panel
 
@@ -686,10 +684,7 @@ We welcome you to provide typical samples of composite plots to help us improve 
 - 编辑符号标签
 - 删除错误的符号
 - 手动添加符号（通过绘制）
-
-**优化功能**：
-
-- 可点击"Optimize"按钮（如可用），系统会自动优化符号匹配结果
+  
 
 ### 4. Caption Detection 面板
 
