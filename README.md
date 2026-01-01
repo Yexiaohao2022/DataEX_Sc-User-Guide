@@ -2,6 +2,11 @@
 
 This guide helps you understand and effectively use the features of DataEX-Sc. DataEX-Sc is a modern web application for automatically extracting data from scatter plots.
 
+### Test Account
+
+- Email：customer2025@test.com
+- Password：DataEx251221!
+
 ## Table of Contents
 
 - [Quick Start](#quick-start)
