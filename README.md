@@ -285,7 +285,7 @@ You can use keyboard shortcuts to quickly switch between tools and improve work 
 
 ## Status Indicators
 
-There are 5 status indicators on the interface to help users understand which conditions have been met. **At least conditions 4 and 5 must be satisfied**. The more conditions that are met, the better the data extraction results:
+There are 6 status indicators on the interface to help users understand which conditions have been met. **At least conditions 5 and 6 must be satisfied**. The more conditions that are met, the better the data extraction results:
 
 ### 1. Image Status
 
@@ -299,14 +299,19 @@ There are 5 status indicators on the interface to help users understand which co
 
 **Note**: Detecting legends helps improve data extraction accuracy, but is not required.
 
-### 3. Legend Analysis Status
+### 3. Detection status of coordinate area
+
+- 🟢 **Green**: Test result of coordinate area.
+- 🔴 **Red**: Test result of coordinate-free zone.
+
+### 4. Legend Analysis Status
 
 - 🟢 **Green**: Labeled legend symbols exist (will be used for extraction)
 - 🟠 **Orange**: No legend symbols (extraction is still possible, but labels will not be used)
 
 **Note**: When legend symbols exist, the system will use template matching strategy for better extraction results.
 
-### 4. X-axis Anchor Status
+### 5. X-axis Anchor Status
 
 - 🟢 **Green**: ≥2 anchors
 - 🔴 **Red**: <2 anchors
@@ -314,7 +319,7 @@ There are 5 status indicators on the interface to help users understand which co
 
 **Note**: At least 2 anchors are required on the X-axis for coordinate conversion. If only pixel coordinates are available, real data coordinates cannot be converted.
 
-### 5. Y-axis Anchor Status
+### 6. Y-axis Anchor Status
 
 - 🟢 **Green**: ≥2 anchors
 - 🔴 **Red**: <2 anchors
@@ -407,14 +412,13 @@ The system supports multiple users and provides user management functions (avail
 - Insufficient X-axis or Y-axis anchors (at least 2 required)
 - Inaccurate anchor positions
 - Incorrect axis scale type settings (linear/logarithmic)
+- Image noise is misidentified as data points.
 
 **Solutions**:
 
-- Check status indicators to ensure both X-axis and Y-axis have sufficient anchors
-- In the Coordinate Calibration panel, click the "Axis Recognition" button to automatically recognize and generate anchors
-- Or click the "Add Anchor" button to manually add anchors
 - Recalibrate anchor positions and values (click anchors to edit)
 - Confirm axis scale type settings are correct
+- Manually correct the classification and position of data points.
 
 ### Q2: What if legend symbols are not recognized?
 
@@ -773,7 +777,7 @@ We welcome you to provide typical samples of composite plots to help us improve 
 
 ## 状态指示器
 
-界面上有 5 个状态指示器，帮助用户了解哪些条件已满足。**至少需要满足条件 4、5**，满足的条件数量越多，数据提取效果越好：
+界面上有 5 个状态指示器，帮助用户了解哪些条件已满足。**至少需要满足条件 5、6**，满足的条件数量越多，数据提取效果越好：
 
 ### 1. 图像状态
 
@@ -787,14 +791,19 @@ We welcome you to provide typical samples of composite plots to help us improve 
 
 **说明**：检测到图例有助于提高数据提取的准确性，但不是必需的。
 
-### 3. 图例分析状态
+### 3.坐标区检测状态
+
+- 🟢 **绿色**：有坐标区检测结果
+- 🔴 **红色**：无坐标区检测结果
+
+### 4. 图例分析状态
 
 - 🟢 **绿色**：有标记的图例符号（会用于提取）
 - 🟠 **橙色**：无图例符号（仍可提取，但不会使用标签）
 
 **说明**：有图例符号时，系统会使用模板匹配策略，提取效果更好。
 
-### 4. X 轴锚点状态
+### 5. X 轴锚点状态
 
 - 🟢 **绿色**：≥2 个锚点
 - 🔴 **红色**：<2 个锚点
@@ -802,7 +811,7 @@ We welcome you to provide typical samples of composite plots to help us improve 
 
 **说明**：X 轴至少需要 2 个锚点才能进行坐标转换。如果只有像素坐标，则无法转换为真实数据坐标。
 
-### 5.Y 轴锚点状态
+### 6.Y 轴锚点状态
 
 - 🟢 **绿色**：≥2 个锚点
 - 🔴 **红色**：<2 个锚点
@@ -897,14 +906,13 @@ We welcome you to provide typical samples of composite plots to help us improve 
 - X 轴或 Y 轴锚点不足（需要至少 2 个）
 - 锚点位置不准确
 - 坐标轴尺度类型设置错误（线性/对数）
+- 图像噪声被误识别为数据点
 
 **解决方法**：
 
-- 检查状态指示器，确保 X 轴和 Y 轴都有足够的锚点
-- 在Coordinate Calibration面板中，点击"Axis Recognition"按钮自动识别并生成锚点
-- 或点击"Add Anchor"按钮手动添加锚点
 - 重新校准锚点位置和数值（点击锚点可编辑）
 - 确认坐标轴尺度类型设置正确
+- 手动校正数据点分类和位置
 
 ### Q2: 图例符号没有被识别出来怎么办？
 
