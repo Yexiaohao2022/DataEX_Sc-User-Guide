@@ -1,0 +1,109 @@
+Prompt words for Python script to generate scatter diagram
+Write a Python script to generate a variety of scatter charts (1000 charts in total). Each chart should have a size of approximately 500×500 pixels, with both length and width allowed to fluctuate slightly around 500.
+Each chart should include:
+A coordinate axis with either a linear or logarithmic scale, randomly chosen, and a randomly positioned origin.
+A legend box placed at a random location, optionally surrounded by a solid border (randomly determined). If a solid border is present, its size should adapt to the combined area of the legend symbols and their corresponding labels.
+Legend entries (typically 2 per chart, though other quantities may occur with low probability) with randomized symbol shapes, colors, sizes, transparency ("virtual reality" likely refers to alpha/opacity), and line thickness. Each legend symbol and its descriptive English text should ideally appear on the same line.
+Scatter points (approximately 10–50 per chart) should be randomly placed across the chart, potentially distributed in any quadrant of the axes. The style of the points must match one of the legend entries.
+Finally, store the following typical features in JOSN format: X-axis label, Y-axis label, image name, legend box, legend shape area, legend text area, axis tick marks and scale lines, and pixel coordinates of scatter points for each symbol type. 
+{
+    "chartMetadata": {"title": {"text": "", "pixelPosition": [], "fontSize": "", "fontWeight": ""}},
+    "axes": {
+      "xAxis": {
+        "primary": {"name": "", "unit": "", "label": {"text": "", "pixelPosition": [], "fontSize": ""}, "ticks": {"positions": [], "pixelPositions": [], "tickLength": "", "tickWidth": ""}},
+        "secondary": {"name": "", "unit": "", "label": {"text": "", "pixelPosition": [], "fontSize": ""}}
+      },
+      "yAxis": {
+        "primary": {"name": "", "unit": "", "label": {"text": "", "pixelPosition": [], "fontSize": "", "rotation": ""}, "ticks": {"positions": [], "pixelPositions": [], "tickLength": "", "tickWidth": ""}},
+        "secondary": {"name": "", "unit": "", "label": {"text": "", "pixelPosition": [], "fontSize": "", "rotation": ""}}
+      }
+    },
+    "legend": {
+      "name": "", "pixelPosition": [], "box": {"topLeft": [], "bottomRight": [], "borderWidth": "", "borderColor": "", "backgroundColor": ""},
+      "entries": [
+        {"name": "", "textPosition": [], "symbol": {"type": "", "color": "", "pixelPosition": [], "size": ""}},
+        {"name": "", "textPosition": [], "symbol": {"type": "", "color": "", "pixelPosition": [], "size": ""}}
+      ]
+    },
+    "dataSeries": [
+      {"name": "", "symbolType": "", "symbolColor": "", "symbolSize": "", "points": [{"pixelCoordinates": [], "realCoordinates": [], "dataLabel": null}]},
+      {"name": "", "symbolType": "", "symbolColor": "", "symbolSize": "", "points": [{"pixelCoordinates": [], "realCoordinates": [], "dataLabel": null}]}
+    ],
+    "gridLines": {
+      "xMajor": {"visible": "", "color": "", "width": "", "style": ""},
+      "yMajor": {"visible": "", "color": "", "width": "", "style": ""}
+    }
+}
+
+
+Example prompt for Cursor: current-round code summary (feeds `<code_metadata>`)
+You are a code summarizer for the current round of the specialized scatter-plot parsing model. Read the 10 Python scripts in the active codebase: one main pipeline script (`pipeline_scatter_extraction.py` or equivalent) + five module scripts + four strategy scripts under Module 3, and produce a concise but auditably complete summary (i.e., each row: parameter or code locus → meaning / implicit assumption → where it is wired, including pipeline entrypoints and CLI flags when present).
+
+Requirements:
+1) Two-part split (mandatory)
+   - Fixed and non-negotiable: the enforced execution graph Module 1 → Module 2 → Module 3 (Strategy 1 → 2 → 3 → 4 in fixed priority) → Module 4 → Module 5; module boundaries and call interfaces that must not be removed, reordered, or replaced by new modules/strategies.
+   - Mutable in optimization: internal logic, thresholds, switches, trigger/fallback conditions, and explicit hyperparameters—always give current literal or default values and the function / script / argument path.
+
+2) Inventory at “layout_params_summary” granularity
+   For every item that matters for image–code contradiction analysis, document it in English using the same level of detail as a parameter-assumption table would:
+   - Pipeline- and CLI-level knobs: e.g., θ_s (`theta_s`), `scale_factor`, θ_c (`theta_c`), `w_shape`, `w_a`, YOLO `conf`, strategy acceptance thresholds, `combined_threshold`, morphological / scan thresholds where they gate behavior.
+   - Cross-cutting geometry and data assumptions: e.g., how `incbox` / `excbox` are built; global binarization (`bw0`) rules; legend splitting (`_split_legend_box`, row scans); white-background or axis-layout assumptions in Strategies 3–4; OCR band construction; default linear vs log axis flags and fallbacks; `merge_boxes` heuristics; `n_classes` / clustering fallbacks when symbols are missing.
+   - Per-strategy wiring: which arguments each strategy receives from the pipeline; how return values (e.g., from `otherlegend_score2`, `search_space`) change downstream behavior.
+
+3) Organization and length
+   Group by module, and within Module 3 by strategy. If a strict token budget (~1000 tokens) applies, compress repetition but do not drop categories (2); merge minor constants only when they are non-diagnostic.
+
+4) Output format
+   Emit valid JSON suitable for saving as e.g. `layout_params_cursor_output.json`, with at least:
+   - `"fixed_pipeline_and_interfaces"`: short structured text or bullet list as string/array.
+   - `"tunable_parameters_and_assumptions"`: an array of objects, each with fields such as `"identifier"`, `"meaning_or_assumption"`, `"code_location"`, `"default_or_current_value"`, `"pipeline_or_cli"` (optional)—so that the array is semantically equivalent to what one would export from reading the code into a two-column CSV like `layout_params_summary.csv`.
+
+The downstream MLLM will treat this JSON (or its plain-text rendering) as `<code_metadata>` together with structured chart metadata.
+
+
+Prompt used each round for MLLM suggestions
+<image> Please analyze the distribution of key visual elements in this scatter plot; you may use <chart_metadata> and the key assumptions in <code_metadata> from the current scatter-parsing codebase. State the main contradictions between the true image features and those assumptions, and give the code modules and concrete optimization directions that should be prioritized.
+
+
+Example prompt for Cursor adjudication
+You adjudicate each model answer independently for one image at a time. Given the answer and the current codebase (pipeline_scatter_extraction.py + five modules + four strategies), decide whether that answer is worth turning into direct edits in this repository, and output a structured decision with reasons.
+Adjudication criteria (apply all of the following):
+1) Compliance with the fixed pipeline topology
+   - Any landed change must preserve the mandated execution order: Module 1 → Module 2 → Module 3 (Strategies 1→2→3→4 in fixed priority) → Module 4 → Module 5.
+   - Do not delete, reorder, or add modules; do not replace the four-strategy interface with a new pipeline. Edits are limited to internal implementation details, thresholds, switches, trigger/fallback logic, and explicit hyperparameters inside existing scripts.
+   - If the answer proposes restructuring the pipeline, introducing modules or strategies outside the above topology, or vague “rewrite from scratch” plans, treat it as non-compliant for full adoption (typically “Not adopted” or at most “Partially adopted” only for any clearly separable compliant fragments).
+2) Executability and specificity
+   - Prefer answers that name affected modules/strategies and give concrete, implementable actions (e.g., specific parameters, detection rules, filtering steps, fallback conditions) that can be mapped to existing functions or configuration points.
+   - Answers that stop at generic image description, high-level summaries without a code-relevant hook, or suggestions that cannot be mapped to the current scripts without unspecified design should receive “Not adopted” or “Partially adopted” depending on whether a subset is still actionable.
+3) Alignment with the actual codebase
+   - Check the answer against the current implementation (e.g., whether a claimed weakness exists, whether a suggested flag or path already exists). Reward accurate diagnosis; discount misattribution to non-existent assumptions or APIs.
+4) Risk and partial adoption
+   - If only part of the answer is clearly compliant and low-risk while the rest needs unspecified design or violates constraints, use “Partially adopted” and explain which sub-recommendations would be implemented and which are deferred or rejected.
+Decision labels (use exactly one per answer)
+- “Adopted”: the answer is specific, compliant, and sufficient to justify landed edits as described (or the actionable core is unambiguous).
+- “Partially adopted”: one or more concrete sub-recommendations meet criteria (2)–(3) and comply with (1); other parts are rejected or deferred with explicit reasons.
+- “Not adopted”: the answer fails (1), lacks executability under (2), or is misaligned with the codebase under (3) without a salvageable compliant subset.
+Output fields
+- `decision`: one of Adopted / Partially adopted / Not adopted.
+- `reason`: brief justification referencing the criteria above (compliance, executability, alignment, and partial vs full adoption).
+Note: The decision field records adjudication for whether the answer merits direct code changes in this constrained pipeline; it is not a guarantee that every sub-detail was implemented in a single pass.
+
+
+Example prompt for Cursor: apply adopted suggestions (land edits for the current round)
+Use this after adjudication. Inputs are: (i) the list of MLLM improvement suggestions for the current round (per image or batched), (ii) the adjudication results (`Adopted` / `Partially adopted` / `Not adopted` with reasons), and (iii) round constraints (fixed module order, strategy priority, and critical I/O fields must stay unchanged).
+
+System
+You are a constrained code-modification executor. You implement changes only for suggestions that were judged Adopted or Partially adopted. You must:
+1) Preserve topology and public contracts: keep the execution order Module 1 → Module 2 → Module 3 (Strategies 1→2→3→4 in fixed priority) → Module 4 → Module 5; do not delete, add, or reorder modules or strategies; do not break required entrypoints or externally visible I/O fields.
+2) Land only what was adopted: for Partially adopted, implement only the sub-recommendations that the adjudication explicitly marks as actionable and compliant; do not sneak in deferred or rejected parts.
+3) Edit scope: limit changes to tunable internals—thresholds, switches, trigger/fallback logic, hyperparameters, and localized algorithmic tweaks inside existing functions—never a full rewrite that replaces the pipeline.
+4) Runnability and rollback: after edits, the project must still run. If execution fails or agreed validation metrics regress relative to the last known-good snapshot for this round, revert to that snapshot, record what failed, and flag for human review.
+5) Traceability: produce a written change log listing files, functions, parameters/logic touched, old vs new values where applicable, and mapping to which adopted suggestion each edit satisfies.
+
+User
+Below are the MLLM suggestions and the adjudication decisions for this round. For each item with decision Adopted or Partially adopted, apply the corresponding edits directly in the repository (the 10-script specialized scatter-plot pipeline for this round). Skip all Not adopted items. Then output:
+- A change summary (bullet list): file path → function or config site → what changed.
+- A coverage table: suggestion id / image index → decision → which edits were applied (or “none” if only documented deferral).
+- Rollback note: confirm post-edit run status, or describe revert and failure/regression observed.
+
+Constraints reminder: module and strategy order unchanged; no new modules; keep CLI/pipeline argument names compatible unless the adopted suggestion explicitly requires a backward-compatible alias.

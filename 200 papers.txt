@@ -1,0 +1,200 @@
+A REVIEW OF MICROSTRUCTURE EVOLUTION IN ZIRCONIUM ALLOYS DURING IRRADIATION
+A molecular dynamics study of displacement cascades in alpha-zirconium
+A molecular dynamics study of high-energy displacement cascades in alpha-zirconium
+A polycrystalline modeling of the mechanical behavior of neutron irradiated zirconium alloys
+A statistical TEM investigation of dislocation channeling mechanism in neutron irradiated zirconium alloys
+A STUDY OF RESIDUAL-STRESSES IN ZIRCALOY-2 WITH ROD TEXTURE
+A STUDY OF THE DISTRIBUTION OF NB AND FE IN 2-PHASE ZR-2.5 WT-PERCENT NB ALLOYS
+Ab initio atomic-scale determination of point-defect structure in hcp zirconium
+Ab initio modelling of defect properties with substitutional and interstitials elements in steels and Zr alloys
+AN ASSESSMENT OF THE INFLUENCE OF MICROSTRUCTURE AND TEST CONDITIONS ON THE IRRADIATION GROWTH PHENOMENON IN ZIRCONIUM ALLOYS
+Analysis of accelerated irradiation growth in Zr-2.5% Nb pressure tubes
+ANALYSIS OF IRRADIATION GROWTH IN ZIRCONIUM-BASE ALLOY
+ANALYSIS OF IRRADIATION GROWTH PHENOMENA OF ZIRCONIUM-BASE ALLOY UNDER TEMPERATURE CYCLING
+Analysis of steady-state thermal creep of Zr-2.5Nb pressure tube material
+Analysis of the anisotropy of point defect diffusion in hcp Zr
+Anisotropic Biaxial Creep of Textured Nb-Modified Zircaloy-4 Tubing
+ANISOTROPIC DISTRIBUTION OF DISLOCATION LOOPS IN HVEM-IRRADIATED ZR
+Anisotropy of in-reactor deformation of Zr-2.5Nb pressure tubes
+ANISOTROPY OF IRRADIATION CREEP AND GROWTH OF ZIRCONIUM ALLOY PRESSURE TUBES
+Anisotropy of point defect diffusion in alpha-zirconium
+Application of In Situ TEM to Investigate Irradiation Creep in Nanocrystalline Zirconium
+Atomistic calculation of point-defect diffusion anisotropy and irradiation growth in alpha-zirconium
+Atomistic simulations of the formation of < c >-component dislocation loops in alpha-zirconium
+AXIAL STRAINS IN FUEL CLADDING ASSOCIATED WITH CREEP AND FAST-NEUTRON IRRADIATION
+Behavior and mechanisms of irradiationthermal creep of cladding tubes made of zirconium alloys
+CALCULATIONS OF IRRADIATION GROWTH IN ZIRCONIUM
+CHARACTERIZATION OF DISLOCATION LOOPS IN NEUTRON-IRRADIATED ZIRCONIUM
+CLADDING TO SUSTAIN CORROSION, CREEP AND GROWTH AT HIGH BURN-UPS
+Cluster Dynamics modelling of irradiation growth of zirconium single crystals
+Computer simulation of displacement cascades and the defects they generate in metals
+Computer simulation of irradiation growth in zirconium
+CORRELATION BETWEEN IRRADIATED AND UNIRRADIATED FRACTURE TOUGHNESS OF ZR-2.5NB PRESSURE TUBES
+CREEP DUCTILITY OF COLD-WORKED ZR-2.5 WT-PERCENT NB AND ZIRCALOY-2 TUBES IN-REACTOR
+DAMAGE STRUCTURE IN ZIRCONIUM ALLOYS NEUTRON-IRRADIATED AT 573-K TO 923-K
+Defect accumulation behaviour in hcp metals and alloys
+Defect production due to displacement cascades in metals as revealed by computer
+Deformation in metals after low-temperature irradiation: Part II - Irradiation hardening, strain hardening, and stress ratios
+Deformation microstructure of neutron-irradiated pure polycrystalline metals
+DEFORMATION-BEHAVIOR OF IRRADIATED ZR-2.5NB PRESSURE TUBE MATERIAL
+Development of microstructure and irradiation hardening of Zircaloy during low dose neutron irradiation at nominally 377-440 degrees C
+Diffusion of point defects, nucleation of dislocation loops, and effect of hydrogen in hcp-Zr: Ab initio and classical simulations
+DISLOCATION BIAS IN AN ANISOTROPIC DIFFUSIVE MEDIUM AND IRRADIATION GROWTH
+Dislocation dynamics simulations of interactions between gliding dislocations and radiation induced prismatic loops in zirconium
+DISLOCATION LOOP GENERATION AND IRRADIATION GROWTH IN A ZIRCONIUM SINGLE-CRYSTAL
+Dislocation-accelerated void formation under irradiation in zirconium
+Dislocation-enhanced experimental-scale vacancy loop formation in hcp Zirconium in one single collision cascade
+Effect of alloying elements on the properties of Zr and the Zr-H system
+Effect of Alloying Elements, Cold Work, and Hydrogen on the Irradiation-Induced Growth Behavior of Zirconium Alloy Variants
+Effect of fast neutron fluence on the creep anisotropy of Zr-2.5Nb tubes
+Effect of Hydrogen on Irradiation Creep and Growth for ZIRLO Alloy and Zr-1.ONb
+EFFECT OF IRRADIATION ON THE PRECIPITATE STABILITY IN ZR ALLOYS
+Effect of long-term irradiation on the fracture properties of Zr-2.5Nb pressure tubes
+Effect of self-interstitial diffusion anisotropy in electron-irradiated zirconium: A cluster dynamics modeling
+EFFECT OF TIN ON THE IRRADIATION GROWTH OF POLYCRYSTALLINE ZIRCONIUM
+EFFECTS OF ION IRRADIATION ON MICROSTRUCTURE AND PROPERTIES OF ZIRCONIUM ALLOYS-A REVIEW
+EFFECTS OF MICROSTRUCTURAL FACTORS ON IRRADIATION GROWTH IN ZIRCONIUM-BASE ALLOYS
+Effects of neutron irradiation on microstructure and properties of Zircaloy
+EFFECTS OF TEMPERATURE AND NEUTRON FLUENCE ON IRRADIATION GROWTH OF ZR-2.5 WT-PERCENT NB
+Effects of vacancies on the mechanical properties of zirconium: An ab initio investigation
+ELECTRON DAMAGE IN ZIRCONIUM .1. DEFECT STRUCTURE AND LOOP CHARACTER
+ELECTRON DAMAGE IN ZIRCONIUM .2. NUCLEATION AND GROWTH OF C-COMPONENT LOOPS
+EVALUATION OF SELF-INTERSTITIAL PROPERTIES IN HCP ZIRCONIUM USING A COMPUTER-SIMULATION
+Evolution of dislocation and precipitate structure in Zr alloys under long-term irradiation
+Evolution of dislocation structure in neutron irradiated Zircaloy-2 studied by synchrotron x-ray diffraction peak profile analysis
+EVOLUTION OF MICROSTRUCTURE DURING FABRICATION OF ZR-2.5 WT PCT NB ALLOY PRESSURE TUBES
+EVOLUTION OF MICROSTRUCTURE IN HCP METALS DURING IRRADIATION
+EVOLUTION OF MICROSTRUCTURE IN ZIRCONIUM ALLOY CORE COMPONENTS OF NUCLEAR-REACTORS DURING SERVICE
+Explaining absence of texture development in cold rolled two-phase Zr-2.5 wt% Nb alloy
+FACTORS AFFECTING THE ANISOTROPY OF IRRADIATION CREEP AND GROWTH OF ZIRCONIUM ALLOYS
+FAULTED LOOPS IN NEUTRON-IRRADIATED ZIRCONIUM
+FRACTURE-TOUGHNESS OF IRRADIATED ZR-2.5NB PRESSURE TUBES FROM CANDU REACTORS
+GRAIN-BOUNDARY SINKS IN NEUTRON-IRRADIATED ZR AND ZR-ALLOYS
+Heavy ion irradiation induced dislocation loops in AREVA's M5 (R) alloy
+HIGH FLUENCE IRRADIATION GROWTH IN SINGLE-CRYSTAL ZIRCONIUM AT 553-K
+High-dose irradiation growth kinetics at 448 K in a zirconium alloy
+High-fluence irradiation growth of cold-worked Zr-2.5Nb
+HVEM STUDY OF THE EFFECTS OF ALLOYING ELEMENTS AND IMPURITIES ON RADIATION-DAMAGE IN ZR-ALLOYS
+IMPLICATIONS OF ZIRCALOY CREEP AND GROWTH TO LIGHT WATER-REACTOR PERFORMANCE
+In PWR Comprehensive Study of High Burn-Up Corrosion and Growth Behavior of M5 (R) and Recrystallized Low-Tin Zircaloy-4
+In situ study of defect accumulation in zirconium under heavy ion irradiation
+Influence of composition and fabrication process on out-of-pile and in-pile properties of M5 alloy
+Influence of structure-phase state of nb containing Zr alloys on irradiation-induced growth
+Influence of zirconium alloy chemical composition on microstructure formation and irradiation induced growth
+In-reactor deformation of cold-worked Zr-2.5Nb pressure tubes
+IN-REACTOR DEFORMATION OF INTERNALLY PRESSURIZED ZR-2.5 W-PERCENT-NB TUBES AT 570 K
+In-Reactor Deformation of Zirconium Alloy Components
+In-reactor performance of pressure tubes in CANDU reactors
+INTRINSIC POINT-DEFECTS IN HEXAGONAL CLOSE-PACKED METALS
+INVESTIGATION OF IN-REACTOR CREEP AND IRRADIATION GROWTH OF ZIRCONIUM-2.5 WT-PERCENT NIOBIUM CHANNEL TUBES
+Investigation of precipitation hardening by dislocation dynamics simulations
+ION SIMULATION OF NEUTRON-IRRADIATION GROWTH AND CREEP IN ZR AND ZR-2.5 WT-PERCENT NB AT 314-K
+Irradiation creep and growth behavior, and microstructural evolution of advanced Zr-base alloys
+Irradiation creep and growth of zirconium alloys: A critical review
+Irradiation creep behavior of Zr-base alloys
+IRRADIATION CREEP IN NON-FISSILE METALS AND ALLOYS
+IRRADIATION CREEP IN ZR SINGLE-CRYSTALS
+Irradiation Creep of Zr-Alloys
+IRRADIATION DAMAGE IN ZIRCONIUM AND ITS ALLOYS
+Irradiation deformation near different atomic grain boundaries in alpha-Zr: An investigation of thermodynamics and kinetics of point defects
+Irradiation growth behavior and effect of hydrogen absorption of Zr-based cladding alloys for PWR
+IRRADIATION GROWTH IN ANNEALED AND 25-PERCENT COLD-WORKED ZIRCALOY-2 BETWEEN 353-673-K
+IRRADIATION GROWTH IN ANNEALED ZIRCALOY-2
+IRRADIATION GROWTH IN DEFORMED ZIRCONIUM
+IRRADIATION GROWTH IN ZIRCONIUM AND ITS ALLOYS
+IRRADIATION GROWTH IN ZIRCONIUM-TIN ALLOYS AT 353-K AND 553-K
+IRRADIATION GROWTH OF ZIRCONIUM SINGLE-CRYSTALS
+IRRADIATION GROWTH OF ZIRCONIUM SINGLE-CRYSTALS - A REVIEW
+IRRADIATION GROWTH OF ZIRCONIUM-BASE ALLOYS .2. ANNEALED MATERIAL
+Irradiation hardening behavior of polycrystalline metals after low temperature irradiation
+Irradiation induced growth and microstructure evolution of Zr-1.2Sn-1Nb-0.4Fe under neutron irradiation to high doses
+Irradiation induced microstructural changes in Zr-Excel alloy
+Irradiation-enhanced deformation of Zr-2.5Nb tubes at high neutron fluences
+IRRADIATION-GROWTH OF ZIRCONIUM-BASE ALLOYS .1.
+Irradiation-induced growth and microstructure of recrystallized, cold worked and quenched zircaloy-2, NSF, and E635 alloys
+Irradiation-induced microstructural changes in Zr-1% Sn-1% Nb-0.4% Fe
+Long-Term Irradiation Growth in Zirconium Alloys
+Materials challenges in nuclear energy
+MECHANISMS OF IRRADIATION GROWTH OF ALPHA-ZIRCONIUM ALLOYS
+Metallic fast reactor fuels
+Methods of analysis and measurement of irradiation creep in non-cubic metals
+MICROSTRUCTURAL AND MICROCHEMICAL STUDIES OF ZR-2.5NB PRESSURE TUBE ALLOY
+MICROSTRUCTURAL ASPECTS OF ACCELERATED DEFORMATION OF ZIRCALOY NUCLEAR-REACTOR COMPONENTS DURING SERVICE
+Microstructural changes in oxygen-irradiated zirconium-based alloy characterised by X-ray diffraction techniques
+Microstructural Effects on Irradiation Creep of Reactor Core Materials
+Microstructural Evolution of Q12 (TM) Alloy Irradiated in PWRs and Comparison with Other Zr Base Alloys
+Microstructural stability of M5 (TM) alloy irradiated up to high neutron fluences
+MICROSTRUCTURE DEPENDENCE OF IRRADIATION CREEP AND GROWTH OF ZIRCONIUM ALLOYS
+MICROSTRUCTURE EVOLUTION IN HCP METALS DURING IRRADIATION
+Mobility of interstitial clusters in alpha-zirconium
+Modeling irradiation growth of zirconium and its alloys
+Modeling of sink-induced irradiation growth of single-crystal and polycrystal zirconiums in nuclear reactors
+Modeling the room temperature deformation of a two-phase zirconium alloy
+MODIFICATION OF EXISTING YIELDING CREEP THEORY OF IRRADIATION CREEP IN ZIRCONIUM AND ZIRCALOY-2
+Molecular dynamics simulations of irradiation cascades in alpha-zirconium under macroscopic strain
+Multi-scale characterization of the metal-oxide interface of zirconium alloys
+Nano-scale chemical evolution in a proton-and neutron-irradiated Zr alloy
+NATURE OF DISLOCATION LOOPS IN NEUTRON-IRRADIATED ZIRCONIUM
+NEUTRON DAMAGE IN ZIRCONIUM ALLOYS IRRADIATED AT 644 TO 710K
+NEUTRON TOTAL AND CAPTURE CROSS-SECTIONS OF ZR-92,ZR-94
+ON THE ANISOTROPIC MIGRATION OF POINT-DEFECTS IN HCP ZIRCONIUM
+Out-of-pile and in-pile perfomance of advanded zirconium alloys (HANA) for high burn-up fuel
+Peculiarities of structural and behavioral changes of some zirconium alloys at damage doses of up to 50 dpa
+PHASE INSTABILITY, DECOMPOSITION AND REDISTRIBUTION OF INTERMETALLIC PRECIPITATES IN ZIRCALOY-2 AND ZIRCALOY-4 DURING NEUTRON-IRRADIATION
+Point defect properties in hcp and bcc Zr with trace solute Nb revealed by ab initio calculations
+POINT-DEFECT DIFFUSION IN ALPHA-ZR
+POINT-DEFECTS AND CLUSTERS IN THE HCP METALS - THEIR ROLE IN THE DOSE TRANSITION
+POLYCRYSTALLINE EFFECTS ON IRRADIATION CREEP AND GROWTH IN TEXTURED ZIRCONIUM
+PRECIPITATE STABILITY IN NEUTRON-IRRADIATED ZIRCALOY-4
+PRECIPITATE STABILITY IN NEUTRON-IRRADIATED ZIRCALOY-4 - COMMENT
+PRECIPITATES IN ZIRCALOY - IDENTIFICATION AND THE EFFECTS OF IRRADIATION AND THERMAL-TREATMENT
+PRECIPITATION IN ZR-2.5NB ENHANCED BY PROTON IRRADIATION
+Production and mutual annihilation of Frenkel pairs in low temperature irradiated zirconium
+PRODUCTION BIAS - A POTENTIAL DRIVING-FORCE FOR IRRADIATION GROWTH
+PROTON IRRADIATION CREEP OF ZIRCONIUM
+Radiation Damage of E635 Alloy Under High Dose Irradiation in the VVER-1000 and BOR-60 Reactors
+RADIATION-INDUCED CREEP AND GROWTH OF ZIRCONIUM ALLOYS
+RADIATION-INDUCED DISLOCATION AND GROWTH BEHAVIOR OF ZIRCONIUM AND ZIRCONIUM ALLOYS - A REVIEW
+Recent studies on potential accident-tolerant fuel-cladding systems in light water reactors
+Redistribution of alloying elements in Zircaloy-2 after in-reactor exposure
+RESIDUAL GRAIN-INTERACTION STRESSES IN ZIRCONIUM ALLOYS
+Self-interstitial configurations in hcp Zr: a first principles analysis
+Self-interstitial-atoms and their agglomerates in HCP metals
+Simulations of the effects of 2-D interstitial diffusion on void lattice formation during irradiation
+Structure and properties of vacancy and interstitial clusters in alpha-zirconium
+STUDY OF POINT-DEFECTS IN ZIRCONIUM IRRADIATED BY NEUTRONS AT 24 K
+Temperature and Neutron Flux Dependence of In-Reactor Creep for Cold-Worked Zr-2.5Nb
+Textural and microstructural developments during fabrication of Zr-2.5Nb pressure tubes
+The characterisation of second phases in the Zr-Nb and Zr-Nb-Sn-Fe alloys: A critical review
+THE CONTRIBUTION OF IRRADIATION GROWTH TO PRESSURE TUBE DEFORMATION
+THE DIRECT OBSERVATION OF IRRADIATION DAMAGE IN ZIRCONIUM AND ITS ALLOYS
+THE DISTRIBUTION OF NB AND FE IN A ZR-2.5 WT-PERCENT NB ALLOY, BEFORE AND AFTER IRRADIATION
+THE EFFECT OF INTERGRANULAR STRESSES ON THE TEXTURE DEPENDENCE OF IRRADIATION GROWTH IN ZIRCONIUM ALLOYS
+The effect of matrix chemistry on dislocation evolution in an irradiated Zr alloy
+THE EFFECTS OF INTERGRANULAR CONSTRAINTS ON IRRADIATION GROWTH OF ZIRCALOY-2 AT 320-K
+The Effects of Microstructure and Operating Conditions on Irradiation Creep of Zr-2.5Nb Pressure Tubing
+THE EFFECTS OF NEUTRON-IRRADIATION ON THE DIMENSIONAL STABILITY, STRUCTURE AND MECHANICAL-PROPERTIES OF ZIRCONIUM-ALUMINUM ALLOYS
+The Evolution of Microstructure and Deformation Stability in Zr-Nb-(Sn,Fe) Alloys Under Neutron Irradiation
+THE FORMATION OF C-COMPONENT DEFECTS IN ZIRCONIUM ALLOYS DURING NEUTRON-IRRADIATION
+The initial transient of the irradiation growth in a zirconium alloy
+THE IRRADIATION CREEP AND GROWTH PHENOMENA
+THE S(E) SENSITIVITY OF METALS UNDER SWIFT-HEAVY-ION IRRADIATION - A TRANSIENT THERMAL-PROCESS
+The study of microstructural defects and mechanical properties in proton-irradiated Zr-1.0%Nb-1.0%Sn-0.1%Fe
+Theoretical investigation of microstructure evolution and deformation of zirconium under neutron irradiation
+THEORY OF IRRADIATION DEFORMATION IN NON-CUBIC METALS - EFFECTS OF ANISOTROPIC DIFFUSION
+Thermal creep of Zr-Nb1%-O alloys: experimental analysis and micromechanical modelling
+Toward a better understanding of the hydrogen impact on the radiation induced growth of zirconium alloys
+Use of the irradiation-thermal creep model of Zr-1% Nb alloy cladding tubes to describe dimensional changes of VVER fuel rods
+Using rate theory to better understand the stress effect of irradiation creep in iron and its based alloy
+Vacancy clustering in zirconium: An atomic-scale study
+VARIABILITY OF IRRADIATION GROWTH IN ZR-2.5NB PRESSURE TUBES
+Volume conservation during irradiation growth of Zr-2.5Nb
+Zirconium-niobium alloys for core elements of pressurized water reactors
+Understanding Irradiation Growth through Atomistic Simulations: Defect Diffusion and Clustering in alpha-Zirconium and the Influence of Alloying Elements
+Use of Zircaloy 4 material for the pressure vessels of hot and cold neutron sources and beam tubes for research reactors
+Vacancy defects effect on thermal conductivity of alpha-zirconium crystal
+Vacancy dislocation loops in zirconium and their interaction with self-interstitial atoms
+VACANCY FORMATION ENERGY FOR ZIRCONIUM
+VACANCY INTERSTITIAL RECOMBINATION COEFFICIENTS IN RADIATION-INDUCED GROWTH-MODELS
+Void formation in zirconium under irradiation in the high-voltage electron microscope
+WORK-HARDENING AND DUCTILITY OF ZR-1.14 PERCENT CR-0.1 PERCENT FE
