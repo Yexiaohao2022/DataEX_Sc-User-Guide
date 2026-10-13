@@ -615,7 +615,7 @@ We welcome you to provide typical samples of composite plots to help us improve 
 本指南旨在帮助您了解并有效使用 DataEX-Sc 的各项功能。DataEX-Sc 是一个现代化的 Web 应用，用于从散点图中自动提取数据。
 
 **版本**：DataEX-Sc V261013  
-**本版重点**：组合图智能分割 · 按子图提取 · Scatter Review 人工分类
+**本版重点**：组合图智能分割 · 按子图提取 · 人工分类图片
 
 ## 目录
 
